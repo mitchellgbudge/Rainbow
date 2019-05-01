@@ -14,7 +14,30 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func redButton(_ sender: Any) {
+        view.backgroundColor = .red
+    }
+    
+    @IBAction func orangeButton(_ sender: Any) {
+        view.backgroundColor = .orange
+    }
+    
+    @IBAction func yellowButton(_ sender: Any) {
+        view.backgroundColor = .yellow
+    }
+    
+    @IBAction func greenButton(_ sender: Any) {
+        view.backgroundColor = .green
+    }
+    
+    @IBAction func blueButton(_ sender: Any) {
+        view.backgroundColor = .blue
+    }
+    
+    @IBAction func purpleButton(_ sender: Any) {
+        view.backgroundColor = .purple
+    }
+    
+    
 }
 
